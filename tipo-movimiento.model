@@ -1,0 +1,6 @@
+export interface TipoMovimiento {
+  idTipoMovimiento: number;
+  nombreMovimiento: string;
+  descripcion?: string | null;
+  estaActivo: boolean;
+}
