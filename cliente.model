@@ -2,6 +2,6 @@ export interface Cliente {
   idCliente: number;
   nombresCliente: string;
   apellidosCliente: string;
-  dni: int;
-  numCelular?: int | null;
+  dni: number;
+  numCelular?: number | null;
 }
