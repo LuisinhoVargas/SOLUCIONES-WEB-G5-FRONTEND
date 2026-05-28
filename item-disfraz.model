@@ -1,5 +1,0 @@
-export interface ItemDisfraz {
-  idItemDisfraz: number;
-  codigoSKU: string;
-  idModeloDisfraz: number;
-}
