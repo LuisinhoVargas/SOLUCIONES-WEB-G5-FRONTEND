@@ -3,5 +3,5 @@ export interface Cliente {
   nombresCliente: string;
   apellidosCliente: string;
   dni: int;
-  numCelular?: string | null;
+  numCelular?: int | null;
 }
