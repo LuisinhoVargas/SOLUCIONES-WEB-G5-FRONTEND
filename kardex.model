@@ -1,0 +1,14 @@
+import { ItemDisfraz } from './item-disfraz.model';
+import { TipoMovimiento } from './tipo-movimiento.model';
+
+export interface Kardex {
+  idKardex: number;
+  idItemDisfraz: number;
+  idTipoMovimiento: number;
+  idTransaccionRef: string;
+  fechaMovimiento: Date | string;
+  estaActivo: boolean;
+
+  itemDisfraz?: ItemDisfraz;
+  tipoMovimiento?: TipoMovimiento;
+}
