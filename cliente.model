@@ -1,7 +1,0 @@
-export interface Cliente {
-  idCliente: number;
-  nombresCliente: string;
-  apellidosCliente: string;
-  dni: number;
-  numCelular?: number | null;
-}
