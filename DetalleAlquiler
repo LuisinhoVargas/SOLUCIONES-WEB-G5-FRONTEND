@@ -1,0 +1,11 @@
+package model;
+import java.time.LocalDate;
+
+    DETALLE_ALQUILER {
+        Integer idDetalleAlquiler PK
+        Integer idItemDisfraz FK
+        Long idAlquiler FK
+        BigDecimal precioUnitarioAlquiler
+        BigDecimal descuentoPorMayor
+        BigDecimal cargoDanio
+    }
