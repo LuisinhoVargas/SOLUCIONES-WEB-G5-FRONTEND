@@ -1,75 +1,59 @@
-# 🏢 Sistema Integrado ERP y POS
+# MagicHouseMiniERP
 
-Este proyecto corresponde al desarrollo frontend de un sistema de gestión integral que unifica un **mini ERP** (Planificación de Recursos Empresariales) y un **POS** (Punto de Venta) para optimizar operaciones comerciales en tiempo real.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
 
----
+## Development server
 
-## 🛠️ Stack Tecnológico
-
-El frontend está construido sobre una arquitectura escalable y componentes de diseño robustos:
-
-*   **Angular** - Framework principal para la SPA.
-*   **Angular Material** - Tablas, formularios, modales y navegación con diseño limpio.
-*   **TypeScript** - Programación tipada y estructurada.
-*   **Consumo API REST** - Comunicación asíncrona mediante servicios HTTP.
-*   **MariaDB** - Motor de base de datos relacional del ecosistema.
-
----
-
-## 🏗️ Módulos del Sistema (En Desarrollo)
-
-La plataforma se encuentra actualmente en fase de construcción, dividida en los siguientes bloques funcionales:
-
-### 📦 Módulos Mini ERP
-*   **Gestión de Inventario:** Control de stock, carga de productos y proveedores.
-*   **Administración:** Reportes internos básicos y flujos de negocio.
-
-### 🛒 Módulos POS (Point of Sale)
-*   **Terminal de Ventas:** Interfaz rápida para facturación y cobro en caja.
-*   **Registro de Clientes:** Altas, bajas y consultas en el punto de venta.
-
----
-
-## 🚀 Requisitos de Entorno
-
-Asegúrate de contar con las siguientes herramientas instaladas antes de iniciar:
-
-* [Node.js](https://nodejs.org) (Versión LTS activa)
-* [Angular CLI](https://angular.io) global (`npm install -g @angular/cli`)
-
----
-
-## 📦 Instalación Local
-
-Sigue este orden para levantar el entorno de desarrollo:
-
-1. **Clonar este repositorio:**
-   ```bash
-   git clone https://github.com
-   ```
-
-2. **Acceder al directorio:**
-   ```bash
-   cd SOLUCIONES-WEB-G5-FRONTEND
-   ```
-
-3. **Descargar los paquetes de Node:**
-   ```bash
-   npm install
-   ```
-
----
-
-## ⚡ Servidor de Desarrollo
-
-Para arrancar la aplicación localmente, ejecuta el comando estándar de Angular:
+To start a local development server, run:
 
 ```bash
-ng serve o ng serve -o
+ng serve
 ```
 
----
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## 📁 Arquitectura del Frontend
+## Code scaffolding
 
-Aquitectura en desarrollo...
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
