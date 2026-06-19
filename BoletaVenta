@@ -1,0 +1,13 @@
+package model;
+import java.time.LocalDate;
+
+BOLETA_VENTA {
+        Long idBoletaVenta PK
+        Integer idVenta FK
+        String nombresCliente
+        String apellidosCliente
+        String nombreMetodoPago
+        String numBoleta "UNIQUE"
+        BigDecimal total
+        LocalDateTime fechaHoraEmision
+        Boolean estaActiva
