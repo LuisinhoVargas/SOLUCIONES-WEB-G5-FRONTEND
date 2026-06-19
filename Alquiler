@@ -1,0 +1,14 @@
+package model;
+import java.time.LocalDate;
+
+ALQUILER{
+        Long idAlquiler PK
+        Integer idCliente FK
+        Short idUsuario FK
+        Short idMetodoPago FK
+        LocalDate fechaAlquiler
+        LocalDate fechaPactada
+        LocalDate fechaEntrega "NULL"
+        BigDecimal total
+        Boolean estaActivo
+    }
