@@ -1,0 +1,9 @@
+package model;
+import java.time.LocalDate;
+
+DETALLE_VENTA {
+        Long idDetalleVenta PK
+        Integer idVenta FK
+        Integer idItemDisfraz FK
+        BigDecimal precioUnitarioVenta
+    }
