@@ -1,0 +1,12 @@
+package model;
+import java.time.LocalDate;
+
+    VENTA {
+        Integer idVenta PK
+        Integer idCliente FK
+        Short idUsuario FK
+        Short idMetodoPago FK
+        BigDecimal total
+        LocalDateTime fechaHoraVenta
+        Boolean estaActiva
+    }
