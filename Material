@@ -1,0 +1,9 @@
+  package model;
+import java.time.LocalDate;
+
+MATERIAL {
+        Short idMaterial PK
+        String nombreMaterial "UNIQUE"
+        String descripcion "NULL"
+        Boolean estaActivo
+    }
